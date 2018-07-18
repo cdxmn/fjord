@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
 module Fjord
-  module Helpers
+  module Functions
   end
 end
