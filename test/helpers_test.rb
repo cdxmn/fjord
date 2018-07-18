@@ -36,7 +36,7 @@ class HelpersTest < Minitest::Test
     assert_raises(::NoMethodError) { Fjord.reverse.(1) }
   end
 
-  def test_redice
+  def test_reduce
     sum = -> (a,b) { a + b }
     total_sum = Fjord.reduce.(sum, 0, [1,2,3,4])
 
